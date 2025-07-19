@@ -27,7 +27,6 @@
         </HBox>
     </top>
 
-    <!-- CENTER IMAGE WITH ARROWS -->
     <center>
         <HBox prefHeight="255.0" prefWidth="628.0">
             <StackPane alignment="CENTER" prefHeight="400" prefWidth="600">
@@ -51,7 +50,7 @@
                     </HBox>
                     <Separator prefHeight="10.0" prefWidth="583.0" />
                 </VBox>
-                <!-- News Item 1 -->
+
                 <HBox spacing="15">
                     <ImageView fitHeight="60" fitWidth="80" preserveRatio="true">
                         <image>
@@ -64,7 +63,6 @@
                     </VBox>
                 </HBox>
 
-                <!-- News Item 2 -->
                 <HBox spacing="15">
                     <ImageView fitHeight="60" fitWidth="80" preserveRatio="true">
                         <image>
