@@ -22,7 +22,7 @@
                 </font></Button>
 
             <Region HBox.hgrow="ALWAYS" />
-            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Homepage" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Home" />
             <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Chatbot" />
             <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="FAQ" />
         </HBox>
