@@ -7,7 +7,7 @@
 
 <BorderPane prefHeight="539.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
 
-    <!-- TOP NAVBAR -->
+    <!-- Top Navigation -->
     <top>
         <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="614.0" spacing="20" style="-fx-background-color: red; -fx-padding: 10;">
             <ImageView fitHeight="72.0" fitWidth="96.0" preserveRatio="true">
@@ -27,6 +27,7 @@
         </HBox>
     </top>
 
+    <!--FAQ Section-->
     <center>
         <VBox alignment="CENTER" spacing="15" style="-fx-padding: 40;">
 
