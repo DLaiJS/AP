@@ -24,7 +24,7 @@
         </font>
     </Label>
 
-    <!-- Login -->
+    <!-- Registration -->
     <VBox alignment="CENTER_LEFT" spacing="15.0">
         <Label text="LoginID:" />
         <TextField fx:id="loginField" promptText="Enter username" />
@@ -42,6 +42,12 @@
         <PasswordField fx:id="dateField" promptText="Enter password" />
     </VBox>
 
+    <HBox alignment="CENTER_LEFT" spacing="2" style="-fx-padding: 10;">
+        <CheckBox text="Receive email Updates?" fx:id="emailCheck"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" spacing="2" style="-fx-padding: 10;">
+        <CheckBox text="Receive phone contacts?" fx:id="phoneCheck"/>
+    </HBox>
 
     <Button layoutX="160.0" layoutY="382.0" prefWidth="100.0" style="-fx-background-color: dodgerblue; -fx-text-fill: white; -fx-font-weight: bold;" text="Register" />
 </VBox>
