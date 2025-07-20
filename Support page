@@ -16,15 +16,15 @@
                     <Image url="@logo_white.png" />
                 </image>
             </ImageView>
-            <Button prefHeight="48.0" prefWidth="117.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Homepage">
+            <Button prefHeight="48.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support Page">
                 <font>
-                    <Font size="18.0" />
+                    <Font size="15.0" />
                 </font></Button>
 
             <Region HBox.hgrow="ALWAYS" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Homepage" />
             <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Chatbot" />
             <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="FAQ" />
-            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support" />
         </HBox>
     </top>
 
