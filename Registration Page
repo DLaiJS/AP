@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="dc1798b6-e147-455e-bb5b-d338df98d3a0" name="Changes" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2zUJL1xVjrKNkpzpH9pl47m9Pf1" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="dc1798b6-e147-455e-bb5b-d338df98d3a0" name="Changes" comment="" />
-      <created>1751779660926</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1751779660926</updated>
-    </task>
-    <servers />
-  </component>
-</project>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="500.0" prefWidth="520.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+
+    <!-- Logo and title -->
+    <ImageView fitHeight="190.0" fitWidth="198.0" preserveRatio="true">
+        <image>
+            <Image url="@logo.png" />
+        </image>
+    </ImageView>
+    <Label text="Registration ">
+        <font>
+            <Font name="Arial Bold" size="22.0" />
+        </font>
+    </Label>
+
+    <!-- Login -->
+    <VBox alignment="CENTER_LEFT" spacing="15.0">
+        <Label text="LoginID:" />
+        <TextField fx:id="loginField" promptText="Enter username" />
+
+        <Label text="Password:" />
+        <PasswordField fx:id="passwordField" promptText="Enter password" />
+
+        <Label text="Email:" />
+        <PasswordField fx:id="emailField" promptText="Enter password" />
+
+        <Label text="Phone Number:" />
+        <PasswordField fx:id="phoneField" promptText="Enter password" />
+
+        <Label text="Date Of Birth:" />
+        <PasswordField fx:id="dateField" promptText="Enter password" />
+    </VBox>
+
+
+    <Button layoutX="160.0" layoutY="382.0" prefWidth="100.0" style="-fx-background-color: dodgerblue; -fx-text-fill: white; -fx-font-weight: bold;" text="Register" />
+</VBox>
